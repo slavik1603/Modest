@@ -184,6 +184,7 @@ li:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 .foto-block img {
     width: 100%;
@@ -218,7 +219,37 @@ li:hover {
 .gloria-block:hover, .paul-block:hover, .judith-block:hover, .delores-block:hover {
     background-color: rgba(0, 0, 0, 0.75);
 }
-
+.networks-2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 60px;
+    visibility: hidden;
+}
+.gloria-block:hover .networks-2{
+    visibility: visible;
+}
+.networks-2 article {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-right: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.networks-2 .twit {
+    background-image: url(Blog/B_twit_log.png);
+}
+.networks-2 .fb {
+    background-image: url(Blog/B_fb_log.png);
+}
+.networks-2 .in {
+    background-image: url(Blog/B_in_log.png);
+}
 @media (max-width: 767px) {
     .logo {
         display: flex;
