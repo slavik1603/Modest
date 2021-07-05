@@ -1,198 +1,197 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .container {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .row {
-    padding-left: -15px;
-    padding-right: -15px;
-    display: flex;
-    flex-wrap: wrap;
+  padding-left: -15px;
+  padding-right: -15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 [class*="col-"] {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .col-xs-1 {
-    flex: 0 0 8.33334%;
-    max-width: 8.33334%;
+  flex: 0 0 8.33334%;
+  max-width: 8.33334%;
 }
 .col-xs-2 {
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
 }
 .col-xs-3 {
-    flex: 0 0 25%;
-    max-width: 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 .col-xs-4 {
-    flex: 0 0 33.33334%;
-    max-width: 33.33334%;
+  flex: 0 0 33.33334%;
+  max-width: 33.33334%;
 }
 .col-xs-5 {
-    flex: 0 0 41.66667%;
-    max-width: 41.66667%;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
 }
 .col-xs-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 .col-xs-7 {
-    flex: 0 0 58.33334%;
-    max-width: 58.33334%;
+  flex: 0 0 58.33334%;
+  max-width: 58.33334%;
 }
 .col-xs-8 {
-    flex: 0 0 66.66667%;
-    max-width: 66.66667%;
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
 }
 .col-xs-9 {
-    flex: 0 0 75%;
-    max-width: 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
 }
 .col-xs-10 {
-    flex: 0 0 83.33334%;
-    max-width: 83.33334%;
+  flex: 0 0 83.33334%;
+  max-width: 83.33334%;
 }
 .col-xs-11 {
-    flex: 0 0 91.66667%;
-    max-width: 91.66667%;
+  flex: 0 0 91.66667%;
+  max-width: 91.66667%;
 }
 .col-xs-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 /*tablet*/
 @media (min-width: 768px) {
-    .container {
-        max-width: 750px;
-    }
-    .col-sm-1 {
-        flex: 0 0 8.33334%;
-        max-width: 8.33334%;
-    }
-    .col-sm-2 {
-        flex: 0 0 16.66667%;
-        max-width: 16.66667%;
-    }
-    .col-sm-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-    .col-sm-4 {
-        flex: 0 0 33.33334%;
-        max-width: 33.33334%;
-    }
-    .col-sm-5 {
-        flex: 0 0 41.66667%;
-        max-width: 41.66667%;
-    }
-    .col-sm-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .col-sm-7 {
-        flex: 0 0 58.33334%;
-        max-width: 58.33334%;
-    }
-    .col-sm-8 {
-        flex: 0 0 66.66667%;
-        max-width: 66.66667%;
-    }
-    .col-sm-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
-    .col-sm-10 {
-        flex: 0 0 83.33334%;
-        max-width: 83.33334%;
-    }
-    .col-sm-11 {
-        flex: 0 0 91.66667%;
-        max-width: 91.66667%;
-    }
-    .col-sm-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+  .container {
+    max-width: 750px;
+  }
+  .col-sm-1 {
+    flex: 0 0 8.33334%;
+    max-width: 8.33334%;
+  }
+  .col-sm-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-sm-4 {
+    flex: 0 0 33.33334%;
+    max-width: 33.33334%;
+  }
+  .col-sm-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-sm-7 {
+    flex: 0 0 58.33334%;
+    max-width: 58.33334%;
+  }
+  .col-sm-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-sm-10 {
+    flex: 0 0 83.33334%;
+    max-width: 83.33334%;
+  }
+  .col-sm-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 /*laptop*/
 @media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-    .col-md-1 {
-        flex: 0 0 8.33334%;
-        max-width: 8.33334%;
-    }
-    .col-md-2 {
-        flex: 0 0 16.66667%;
-        max-width: 16.66667%;
-    }
-    .col-md-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-    .col-md-4 {
-        flex: 0 0 33.33334%;
-        max-width: 33.33334%;
-    }
-    .col-md-5 {
-        flex: 0 0 41.66667%;
-        max-width: 41.66667%;
-    }
-    .col-md-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .col-md-7 {
-        flex: 0 0 58.33334%;
-        max-width: 58.33334%;
-    }
-    .col-md-8 {
-        flex: 0 0 66.66667%;
-        max-width: 66.66667%;
-    }
-    .col-md-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
-    .col-md-10 {
-        flex: 0 0 83.33334%;
-        max-width: 83.33334%;
-    }
-    .col-md-11 {
-        flex: 0 0 91.66667%;
-        max-width: 91.66667%;
-    }
-    .col-md-12 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .team-block {
-        margin: 0, auto;
-    }
+  .container {
+    max-width: 960px;
+  }
+  .col-md-1 {
+    flex: 0 0 8.33334%;
+    max-width: 8.33334%;
+  }
+  .col-md-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-md-4 {
+    flex: 0 0 33.33334%;
+    max-width: 33.33334%;
+  }
+  .col-md-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-md-7 {
+    flex: 0 0 58.33334%;
+    max-width: 58.33334%;
+  }
+  .col-md-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-md-10 {
+    flex: 0 0 83.33334%;
+    max-width: 83.33334%;
+  }
+  .col-md-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .team-block {
+    margin: 0, auto;
+  }
 }
 /*desktop*/
 @media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
+  .container {
+    max-width: 1170px;
+  }
 }
 /*only mobile*/
 @media (max-width: 767px) {
-    .col-xs-hidden {
-        display: none;
-    }
-    .header-row {
-        justify-content: center;
-    }
-    
+  .col-xs-hidden {
+    display: none;
+  }
+  .header-row {
+    justify-content: center;
+  }
 }
