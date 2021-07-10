@@ -577,6 +577,16 @@ h7 {
     padding: 25px;
     transform: translateX(0);
   }
+  .finish-contacts {
+    display: flex;
+    justify-content: space-around;
+  }
+  .finish {
+    text-align: center;
+  }
+  .team-block {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
