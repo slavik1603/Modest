@@ -45,6 +45,13 @@ li:hover {
   font-weight: 600;
   text-decoration: none;
 }
+.menu-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 .slide-1 {
   background-image: url(Blog/fon_1.png);
   background-size: cover;
