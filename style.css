@@ -16,9 +16,7 @@
 }
 .navigation {
   width: 100%;
-  display: flex;
-  justify-items: center;
-  align-self: center;
+  display: block;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -530,6 +528,31 @@ h7 {
 }
 
 @media (max-width: 767px) {
+  .logo {
+    display: flex;
+    justify-content: start;
+    align-self: center;
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+  .feature-text {
+    text-align: center;
+  }
+  .networks-block article {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+  }
+  .gr-h1 {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
   .nav-mobile-menu {
     width: 15px;
     height: 15px;
@@ -597,38 +620,6 @@ h7 {
   }
   .finish {
     text-align: center;
-  }
-}
-
-@media (max-width: 767px) {
-  .logo {
-    display: flex;
-    justify-content: start;
-    align-self: center;
-  }
-  .navigation {
-    display: flex;
-    justify-content: center;
-  }
-  .menu {
-    width: 100%;
-    display: flex;
-    align-self: center;
-    overflow-x: scroll;
-    justify-content: flex-start;
-  }
-  .feature-text {
-    text-align: center;
-  }
-  .networks-block article {
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-  }
-  .gr-h1 {
-    width: 30px;
-    height: 30px;
-    font-size: 14px;
   }
 }
 @media (min-width: 768px) {
