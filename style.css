@@ -49,8 +49,6 @@ li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 .slide-1 {
   background-image: url(Blog/fon_1.png);
@@ -193,14 +191,14 @@ li:hover {
 .team-block {
   position: relative;
   width: 100%;
-  max-width: 263px;
+  max-width: 100%;
   margin-bottom: 18%;
 }
 img {
   max-width: 100%;
 }
 .name-block {
-  max-width: 100%;
+  max-width: 263px;
   width: 100%;
   padding: 12px;
   padding-left: 20px;
@@ -584,14 +582,18 @@ h7 {
     padding: 25px;
     transform: translateX(0);
   }
+  .menu-block {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .team-block {
+    text-align: center;
+  }
   .finish-contacts {
     display: flex;
     justify-content: space-around;
   }
   .finish {
-    text-align: center;
-  }
-  .team-block {
     text-align: center;
   }
 }
