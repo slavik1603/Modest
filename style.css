@@ -600,7 +600,7 @@ h7 {
   .navigation.active-menu {
     opacity: 1;
     visibility: visible;
-    top: 50px;
+    top: 21px;
     padding: 25px;
     transform: translateX(0);
   }
